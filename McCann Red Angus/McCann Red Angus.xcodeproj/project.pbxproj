@@ -14,6 +14,9 @@
 		D0F8822C2A0DA7F700E490E7 /* McCann_Red_AngusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F8822B2A0DA7F700E490E7 /* McCann_Red_AngusTests.swift */; };
 		D0F882362A0DA7F700E490E7 /* McCann_Red_AngusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F882352A0DA7F700E490E7 /* McCann_Red_AngusUITests.swift */; };
 		D0F882382A0DA7F700E490E7 /* McCann_Red_AngusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F882372A0DA7F700E490E7 /* McCann_Red_AngusUITestsLaunchTests.swift */; };
+		D0F882452A0DB06200E490E7 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F882442A0DB06100E490E7 /* ContentViewModel.swift */; };
+		D0F882472A0DB07B00E490E7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F882462A0DB07B00E490E7 /* Item.swift */; };
+		D0F882492A0DB0C300E490E7 /* ItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F882482A0DB0C300E490E7 /* ItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		D0F882312A0DA7F700E490E7 /* McCann Red AngusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "McCann Red AngusUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F882352A0DA7F700E490E7 /* McCann_Red_AngusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McCann_Red_AngusUITests.swift; sourceTree = "<group>"; };
 		D0F882372A0DA7F700E490E7 /* McCann_Red_AngusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McCann_Red_AngusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D0F882442A0DB06100E490E7 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		D0F882462A0DB07B00E490E7 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		D0F882482A0DB0C300E490E7 /* ItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				D0F8821A2A0DA7F400E490E7 /* McCann_Red_AngusApp.swift */,
 				D0F8821C2A0DA7F400E490E7 /* ContentView.swift */,
+				D0F882442A0DB06100E490E7 /* ContentViewModel.swift */,
+				D0F882482A0DB0C300E490E7 /* ItemView.swift */,
+				D0F882462A0DB07B00E490E7 /* Item.swift */,
 				D0F8821E2A0DA7F700E490E7 /* Assets.xcassets */,
 				D0F882202A0DA7F700E490E7 /* Preview Content */,
 			);
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0F882472A0DB07B00E490E7 /* Item.swift in Sources */,
 				D0F8821D2A0DA7F400E490E7 /* ContentView.swift in Sources */,
 				D0F8821B2A0DA7F400E490E7 /* McCann_Red_AngusApp.swift in Sources */,
+				D0F882492A0DB0C300E490E7 /* ItemView.swift in Sources */,
+				D0F882452A0DB06200E490E7 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
